@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-17T15:47:19 GMT+03:00" name="Suite" finished-at="2024-10-17T15:47:35 GMT+03:00" duration-ms="16225">
+    <groups>
+    </groups>
+    <test started-at="2024-10-17T15:47:19 GMT+03:00" name="Test" finished-at="2024-10-17T15:47:35 GMT+03:00" duration-ms="16225">
+      <class name="testCases.LogInTestCase">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testCases.LogInTestCase@2d3379b4]" started-at="2024-10-17T15:47:19 GMT+03:00" name="openBrowser" finished-at="2024-10-17T15:47:23 GMT+03:00" duration-ms="3514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="loginWithValidData(java.lang.String,java.lang.String)[pri:1, instance:testCases.LogInTestCase@2d3379b4]" started-at="2024-10-17T15:47:23 GMT+03:00" name="loginWithValidData" data-provider="LoginData" finished-at="2024-10-17T15:47:28 GMT+03:00" duration-ms="5062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashraffortest@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ashraf123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidData -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCases.LogInTestCase@2d3379b4]" started-at="2024-10-17T15:47:35 GMT+03:00" name="closeBrowser" finished-at="2024-10-17T15:47:35 GMT+03:00" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.LogInTestCase -->
+      <class name="testCases.AddToCartTC">
+        <test-method signature="AdddProductToCart()[pri:0, instance:testCases.AddToCartTC@28701274]" started-at="2024-10-17T15:47:28 GMT+03:00" name="AdddProductToCart" finished-at="2024-10-17T15:47:32 GMT+03:00" duration-ms="3370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdddProductToCart -->
+      </class> <!-- testCases.AddToCartTC -->
+      <class name="testCases.PaymentTestCase">
+        <test-method signature="enterPaymentData(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCases.PaymentTestCase@13c9d689]" started-at="2024-10-17T15:47:32 GMT+03:00" name="enterPaymentData" data-provider="PaymentData" finished-at="2024-10-17T15:47:35 GMT+03:00" duration-ms="3416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AshraTest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567899876]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[07]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2026]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPaymentData -->
+      </class> <!-- testCases.PaymentTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
